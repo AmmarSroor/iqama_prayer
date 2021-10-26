@@ -12,18 +12,18 @@ class GetSubDuaOrDhikrList implements UseCase<List<SubDuaOrDhikr> ,Parameters>{
 
   @override
   Future<Either<Failure, List<SubDuaOrDhikr>>> call(Parameters parameter) async{
-    return await repository.getSubDuaOrDhikrList(parameter.nameOfDuaOrDhikr);
+    return await repository.getSubDuaOrDhikrList(parameter.id);
   }
 
 }
 
 class Parameters extends Equatable{
-  final String nameOfDuaOrDhikr;
+  // id of dua or dhikr
+  final int id;
 
-  Parameters({required this.nameOfDuaOrDhikr});
+  Parameters({required this.id});
 
   @override
-  List<Object?> get props => [Parameters(nameOfDuaOrDhikr: nameOfDuaOrDhikr)];
-
+  List<Object?> get props => [Parameters(id: id)];
 
 }
