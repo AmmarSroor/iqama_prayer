@@ -15,8 +15,6 @@ class GetSubCategoryFromDuaOrDhikr implements UseCase<List<SubCategoryFromDuaOrD
     return await repository.getSubCategoryFromDuaOrDhikrList(parameter.id);
   }
 
-
-
 }
 
 class Parameters extends Equatable{
