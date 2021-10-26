@@ -3,7 +3,6 @@ import 'package:iqama_prayer/core/errors/failures.dart';
 import 'package:iqama_prayer/features/Start/domain/entites/start.dart';
 import 'package:iqama_prayer/features/Start/domain/repositories/start_repository.dart';
 
-
 class StartRepositoryIml implements StartRepository {
   @override
   Future<Either<Failure, Start>> getDataForToday() {

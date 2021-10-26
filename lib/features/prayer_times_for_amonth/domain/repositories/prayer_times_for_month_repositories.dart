@@ -5,5 +5,5 @@ import 'package:iqama_prayer/features/prayer_times_for_amonth/domain/entites/pra
 abstract class PrayerTimesForMonthRepository {
   Future<Either<Failure, PrayerTimesForMonth>> getDateForMonth();
   Future<Either<Failure, PrayerTimesForMonth>> downloadFiles(
-      String urlPath, String fileName);
+      String urlPath, String fileName , String saveFileDownload );
 }

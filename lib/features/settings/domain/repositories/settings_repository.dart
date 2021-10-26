@@ -1,5 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:iqama_prayer/core/errors/failures.dart';
+import 'package:iqama_prayer/features/settings/domain/entities/settings.dart';
 
 abstract class SettingsRepository
 {
