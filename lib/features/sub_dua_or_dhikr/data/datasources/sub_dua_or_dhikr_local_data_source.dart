@@ -1,3 +1,3 @@
-class SubDuaOrDhikrLocalDataSource{
+abstract class SubDuaOrDhikrLocalDataSource{
 
 }

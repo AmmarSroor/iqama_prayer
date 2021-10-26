@@ -1,3 +1,3 @@
-class DuaAndDhikrLocalDataSource{
+abstract class DuaAndDhikrLocalDataSource{
 
 }
